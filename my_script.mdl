@@ -1,0 +1,26 @@
+constants red 0.8 0.65 0.65 0 0 0 0 0 0
+constants orange 0.8 0.65 0.65 0.8 0.35 0.35 0 0 0
+constants yellow 0.8 0.65 0.65 0.8 0.65 0.65 0 0 0
+constants green 0 0 0 0.8 0.65 0.65 0 0 0
+constants blue 0 0 0 0 0 0 0.8 0.65 0.65
+constants indigo 0.8 0.35 0.35 0.8 0.35 0.35 0.8 0.65 0.65
+constants violet 0.8 0.35 0.35 0 0 0 0. 0.65 0.65
+push
+move 250 250 0
+rotate z 30
+rotate y 30
+torus red 0 0 0 30 100
+rotate x 51.4
+torus yellow 0 0 0 30 100
+rotate x 51.4
+torus blue 0 0 0 30 100
+rotate x 51.4
+torus violet 0 0 0 30 100
+rotate x 51.4
+torus orange 0 0 0 30 100
+rotate x 51.4
+torus green 0 0 0 30 100
+rotate x 51.4
+torus indigo 0 0 0 30 100
+rotate x 51.4
+save cool_thing.png
